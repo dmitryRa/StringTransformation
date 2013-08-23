@@ -15,6 +15,7 @@ public class StringTransformerTest {
 
     @Test
     public void shouldReturnEqualStringWithOutAnyChange() {
+
         splitedString = transformer.splitString("abcdef");
         assertEquals(valid, transformer.transformsStringArray(splitedString).toString());
 
@@ -22,6 +23,7 @@ public class StringTransformerTest {
 
     @Test
     public void shouldTransformStringCorrectlyAndRemoveTwoSubString() {
+
         splitedString = transformer.splitString("ab\\\ncd\\\nef");
         assertEquals(valid, transformer.transformsStringArray(splitedString).toString());
 
@@ -29,6 +31,7 @@ public class StringTransformerTest {
 
     @Test
     public void shouldTransformStringCorrectlyAndRemoveOneSubString() {
+
         splitedString = transformer.splitString("abc\\\ndef");
         assertEquals(valid, transformer.transformsStringArray(splitedString).toString());
     }

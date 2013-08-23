@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a969ffe0-7aa1-4953-88c8-17a170a9ce08" name="Default" comment="" />
+    <list default="true" id="a969ffe0-7aa1-4953-88c8-17a170a9ce08" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" afterPath="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" />
+    </list>
     <ignored path="StringTransformation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a969ffe0-7aa1-4953-88c8-17a170a9ce08" time="1377237069295" ignored="false" />
@@ -70,7 +72,7 @@
       <file leaf-file-name="StringTransformerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="36" selection-start="896" selection-end="896" vertical-scroll-proportion="0.37362638">
+            <state line="17" column="8" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,9 +127,9 @@
       <list>
         <option value="$PROJECT_DIR$/test/com/ctco/stringTransformation/TransformerAndConverterTest.java" />
         <option value="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringConverterTest.java" />
-        <option value="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" />
         <option value="$PROJECT_DIR$/src/com/ctco/stringTransformation/transformer/StringTransformer.java" />
         <option value="$PROJECT_DIR$/src/com/ctco/stringTransformation/converter/StringConvert.java" />
+        <option value="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" />
       </list>
     </option>
   </component>
@@ -649,7 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="896" selection-end="896" vertical-scroll-proportion="0.37362638">
+        <state line="17" column="8" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
