@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a969ffe0-7aa1-4953-88c8-17a170a9ce08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ctco/stringTransformation/converter/StringConvert.java" afterPath="$PROJECT_DIR$/src/com/ctco/stringTransformation/converter/StringConvert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ctco/stringTransformation/transformer/StringTransformer.java" afterPath="$PROJECT_DIR$/src/com/ctco/stringTransformation/transformer/StringTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" afterPath="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" />
-    </list>
+    <list default="true" id="a969ffe0-7aa1-4953-88c8-17a170a9ce08" name="Default" comment="" />
     <ignored path="StringTransformation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a969ffe0-7aa1-4953-88c8-17a170a9ce08" time="1377237069295" ignored="false" />
@@ -74,7 +70,7 @@
       <file leaf-file-name="StringTransformerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="51" selection-start="851" selection-end="851" vertical-scroll-proportion="0.74725276">
+            <state line="27" column="36" selection-start="896" selection-end="896" vertical-scroll-proportion="0.37362638">
               <folding />
             </state>
           </provider>
@@ -555,7 +551,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.67085075" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -653,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="51" selection-start="851" selection-end="851" vertical-scroll-proportion="0.74725276">
+        <state line="27" column="36" selection-start="896" selection-end="896" vertical-scroll-proportion="0.37362638">
           <folding />
         </state>
       </provider>
