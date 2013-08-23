@@ -3,7 +3,7 @@ package com.ctco.stringTransformation.transformer;
 public class StringTransformer {
 
 
-    public String[] splitsString(String str){
+    public String[] splitString(String str){
 
         return str.split("\\\n");
 

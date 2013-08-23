@@ -1,6 +1,5 @@
 package com.ctco.stringTransformation;
 
-import com.ctco.stringTransformation.converter.StringConvert;
 import com.ctco.stringTransformation.transformer.StringTransformer;
 import org.junit.Test;
 
@@ -16,21 +15,21 @@ public class StringTransformerTest {
 
     @Test
     public void shouldReturnEqualStringWithOutAnyChange() {
-        splitedString = transformer.splitsString("abcdef");
+        splitedString = transformer.splitString("abcdef");
         assertEquals(valid, transformer.transformsStringArray(splitedString).toString());
 
     }
 
     @Test
     public void shouldTransformStringCorrectlyAndRemoveTwoSubString() {
-        splitedString = transformer.splitsString("ab\\\ncd\\\nef");
+        splitedString = transformer.splitString("ab\\\ncd\\\nef");
         assertEquals(valid, transformer.transformsStringArray(splitedString).toString());
 
     }
 
     @Test
     public void shouldTransformStringCorrectlyAndRemoveOneSubString() {
-        splitedString = transformer.splitsString("abc\\\ndef");
+        splitedString = transformer.splitString("abc\\\ndef");
         assertEquals(valid, transformer.transformsStringArray(splitedString).toString());
     }
 

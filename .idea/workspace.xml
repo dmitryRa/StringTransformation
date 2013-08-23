@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a969ffe0-7aa1-4953-88c8-17a170a9ce08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringConverterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" />
-      <change type="DELETED" beforePath="C:\Users\rahmanin\Documents\GitHub\StringTransformation\StringTransformation\test\com\ctco\stringTransformation\TransformerAndConverterTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ctco/stringTransformation/converter/StringConvert.java" afterPath="$PROJECT_DIR$/src/com/ctco/stringTransformation/converter/StringConvert.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ctco/stringTransformation/transformer/StringTransformer.java" afterPath="$PROJECT_DIR$/src/com/ctco/stringTransformation/transformer/StringTransformer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" afterPath="$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java" />
     </list>
     <ignored path="StringTransformation.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a969ffe0-7aa1-4953-88c8-17a170a9ce08" time="1377237069295" ignored="false" />
-    <file path="/StringConvert.java" changelist="a969ffe0-7aa1-4953-88c8-17a170a9ce08" time="1377237638047" ignored="false" />
+    <file path="/StringConvert.java" changelist="a969ffe0-7aa1-4953-88c8-17a170a9ce08" time="1377238167660" ignored="false" />
     <file path="/TransformerAndConverterTest.java" changelist="a969ffe0-7aa1-4953-88c8-17a170a9ce08" time="1377237416479" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <file leaf-file-name="StringTransformerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="118" selection-start="795" selection-end="795" vertical-scroll-proportion="0.6725275">
+            <state line="25" column="51" selection-start="851" selection-end="851" vertical-scroll-proportion="0.74725276">
               <folding />
             </state>
           </provider>
@@ -96,7 +94,7 @@
       <file leaf-file-name="StringTransformer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ctco/stringTransformation/transformer/StringTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+            <state line="15" column="9" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +103,7 @@
       <file leaf-file-name="StringConvert.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ctco/stringTransformation/converter/StringConvert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="54" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
+            <state line="15" column="59" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -272,7 +270,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.StringTransformerTest.shouldReturnEqualStringWithOutAnyChange">
+  <component name="RunManager" selected="JUnit.StringTransformerTest.shouldTransformStringCorrectlyAndRemoveTwoSubString">
     <configuration default="false" name="StringTransformerTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -385,6 +383,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="StringTransformerTest.shouldTransformStringCorrectlyAndRemoveTwoSubString" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ctco.stringTransformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StringTransformation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ctco.stringTransformation" />
+      <option name="MAIN_CLASS_NAME" value="com.ctco.stringTransformation.StringTransformerTest" />
+      <option name="METHOD_NAME" value="shouldTransformStringCorrectlyAndRemoveTwoSubString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -476,18 +502,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.StringTransformerTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.StringTransformerTest.shouldReturnTrue" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.StringConverterTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.StringTransformerTest.shouldReturnEqualStringWithOutAnyChange" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringTransformerTest.shouldTransformStringCorrectlyAndRemoveTwoSubString" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StringTransformerTest.shouldReturnEqualStringWithOutAnyChange" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StringConverterTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringTransformerTest.shouldReturnTrue" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StringTransformerTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringTransformerTest.shouldTransformStringCorrectlyAndRemoveTwoSubString" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StringTransformerTest.shouldReturnEqualStringWithOutAnyChange" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringConverterTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringTransformerTest.shouldReturnTrue" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringTransformerTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -527,7 +555,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.67085075" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -602,14 +630,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ctco/stringTransformation/transformer/StringTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+        <state line="15" column="9" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ctco/stringTransformation/converter/StringConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="54" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
+        <state line="15" column="59" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -625,7 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ctco/stringTransformation/StringTransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="118" selection-start="795" selection-end="795" vertical-scroll-proportion="0.6725275">
+        <state line="25" column="51" selection-start="851" selection-end="851" vertical-scroll-proportion="0.74725276">
           <folding />
         </state>
       </provider>

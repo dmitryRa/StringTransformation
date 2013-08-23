@@ -10,8 +10,9 @@ public class StringConvert {
 
     public String transform(String inputString) {
 
+        String [] splitedString = stringTransformer.splitString(inputString);
         if (isCorrectRecord(inputString)) {
-            return stringTransformer.transformsStringArray(stringTransformer.splitsString(inputString)).toString();
+            return stringTransformer.transformsStringArray(splitedString).toString();
         } else {
             return inputString;
         }
