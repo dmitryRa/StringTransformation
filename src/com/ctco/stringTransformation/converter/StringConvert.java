@@ -6,25 +6,21 @@ public class StringConvert {
 
     StringTransformer stringTransformer = new StringTransformer();
 
-    private String inputString;
 
-    public StringConvert(String inputString) {
-        this.inputString = inputString;
-    }
 
-    public String transform() {
+    public String transform(String inputString) {
 
-        if (isCorrectRecord()) {
+        if (isCorrectRecord(inputString)) {
             return stringTransformer.transformsStringArray(stringTransformer.splitsString(inputString)).toString();
         } else {
-            return this.inputString;
+            return inputString;
         }
 
     }
 
-    public boolean isCorrectRecord() {
+    public boolean isCorrectRecord(String inputString) {
 
-        return this.inputString.contains("\\\n");
+        return inputString.contains("\\\n");
 
     }
 
